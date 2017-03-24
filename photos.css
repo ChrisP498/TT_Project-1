@@ -1,4 +1,4 @@
-/* Global Layout Set-up */
+/*Global Layout setup*/
 * {
   box-sizing: border-box;
 }
@@ -12,7 +12,7 @@ body {
   background: #708090;
 }
 
-/* Link Styles */
+/*Link Styles */
 
 a {
   text-decoration: none;
@@ -58,68 +58,45 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/aznightsky.jpg') no-repeat top center ;
+  background: url('images/rsz_grandc.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
-}
-header {
+  padding: 100px;
   line-height: 1.5;
 }
-header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 65%;
-  border: 4px solid orange;
-  transition: all .5s;
-}
-header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
-}
+
 .tag {
   background-color: #1dc8ef;
   color: black;
   padding: 10px;
   border-radius: 5px;
+  border-style: ridge;
+  border-color: black;
   display: table;
   margin: 10px auto;
 }
-.location {
-  background-color: #222;
-  color: cornsilk;
-}
-.card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
-  background: #D3D3D3;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
-}
-.card:hover {
-  border-color: #000;
+
+/*PICTURES*/
+
+.pic {
+  width: 100%;
+  max-width: 720px;
+  margin: 30px auto;
+  margin-bottom: 0;
+  margin-top: 50px;
+  border: 5px solid black;
+  border-style: outset;
 }
 
-ul.skills {
-  padding: 0;
-  text-align: center;
+/*PARAGRAPHS UNDER PICTURES*/
+.para {
+  border: 2px solid black;
+  padding: 0 auto;
+  margin: 0 35% 0 35%;
+  background-color: cornsilk;
 }
 
-.skills li {
-  border-radius: 6px;
-  display: inline-block;
-  background: #ff9904;
-  color: white;
-  padding: 5px 10px;
-  margin: 2px;
-}
-
-.skills li:nth-child(odd) {
-  background: #0399ff;
-}
+/*FOOTER*/
 
 footer {
   width: 100%;
@@ -175,7 +152,7 @@ a.social:hover {
   }
 
   header {
-    min-height: 470px;
+    min-height: 250px;
   }
 
   .nav {
