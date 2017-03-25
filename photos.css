@@ -1,4 +1,5 @@
 /*Global Layout setup*/
+
 * {
   box-sizing: border-box;
 }
@@ -12,7 +13,7 @@ body {
   background: #708090;
 }
 
-/*Link Styles */
+/*NAVIGATION*/
 
 a {
   text-decoration: none;
@@ -21,8 +22,6 @@ a {
 a:hover {
   color: #6633ff;
 }
-
-/* Section Styles */
 
 .main-nav {
   width: 100%;
@@ -56,12 +55,15 @@ a:hover {
   color: white
 }
 
+/*HEADER*/
+
 header {
   text-align: center;
   background: url('images/rsz_grandc.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding: 60px;
+  border-bottom: 2px solid black;
   line-height: 1.5;
 }
 
@@ -69,11 +71,14 @@ header {
   background-color: #1dc8ef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
-  border-style: ridge;
+  border-radius: 5%;
   border-color: black;
   display: table;
   margin: 10px auto;
+}
+
+h2{
+  max-width: 235px;
 }
 
 /*PICTURES AND CAPTIONS*/
@@ -82,7 +87,7 @@ header {
   width: 100%;
   max-width: 720px;
   margin: 30px auto;
-  margin-bottom: 0;
+  margin-bottom: -2px;
   margin-top: 50px;
   border: 5px solid black;
   border-style: outset;
@@ -91,12 +96,9 @@ header {
 .para {
     max-width: 720px;
     margin: 30px auto;
-    margin-top: 0;
+    margin-top: -2px;
     margin-bottom: 25px;
-    border-width: thick;
-    border-radius: 5%;
-    border-style: groove;
-    border-color: black;
+    border: 3px solid black;
     background-color: cornsilk;
 }
 
